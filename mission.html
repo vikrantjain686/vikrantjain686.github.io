@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Manali Beauty Care</title>
+  <meta name="keywords" content="Cosmetics, Products, Beauty, Powder, Shampoo, Manali">
+  <meta name="description" content="Your beauty, in our hands. We create products for you to bring your inner beautiful side out.">
+
+  <link rel="stylesheet" href="temp/styles/styles.css">
+
+  <script src="temp/scripts/vendor.js"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a href="index.html">
+        <div class="site-header__logo">
+          <div class="site-header__logo__graphic icon icon--manali_logo">Manali Beauty Care</div>
+        </div>
+      </a>
+
+      <div class="site-header__menu-content-icon">
+        <div class="site-header__menu-content-icon__middle"></div>
+      </div>
+
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+          <a href="#" class="btn open-modal">Get in Touch</a>
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="index.html#about-us" id="about-us-link">About us</a></li>
+            <li><a href="index.html#why-us" id="why-us-link">Why us</a></li>
+            <li><a href="services.html" id="services-link">Services</a></li>
+            <li><a href="products.html" id="products-link">Products</a></li>
+            <li><a href="contactus.html" id="contactus-link">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+  </header>
+
+  <div class="large-hero mission">
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title white-color">Mission &amp;  Vision!</h1>
+        <p class="large-hero__description">We believe in our dreams.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="wrapper--float-right" id="google_translate_element"></div>
+  </div>
+
+  <div id="mission" class="page-section page-section--low-t-padding" data-matching-link="#mission-link">
+    <div class="wrapper">
+      <div class="row row--gutters">
+          <div class="generic-content-container">
+            <p class="generic-content-container--path-para">
+              <a class="generic-content-container--path-link" href="index.html">Home</a> >
+              <a onclick="myFunction()" class="generic-content-container--path-link dropbtn">More about us &#9660;</a>
+                <span id="myDropdown" class="dropdown-content">
+                  <a class="generic-content-container--path-link generic-content-container--path-link-about-us" href="history.html" target="_blank">History</a>
+                  <a class="generic-content-container--path-link generic-content-container--path-link-about-us" href="infrastructure.html" target="_blank">Infrastructure</a>
+                  <a class="generic-content-container--path-link generic-content-container--path-link-about-us" href="factsheet.html" target="_blank">FactSheet</a>
+                </span>
+            </p>
+            <h2 class="headline headline--no-t-margin">Our Mission</h2>
+            <ul class="list list--type-circle">
+              <li>Manufacture excellent quality cosmetic product for our customers.</li>
+              <li>Share success with our staff.</li>
+              <li>Extent our product line by supporting R&amp;D</li>
+              <li>Constantly train employees for overall development of employees and company.</li>
+              <li>Being a good corporate citizen.</li>
+            </ul>
+          </div>
+          <div class="generic-content-container">
+            <h2 class="headline headline--no-t-margin">Our Vision</h2>
+            <ul class="list list--type-circle">
+              <li>To manufacture best in class product in world class environment.</li>
+              <li>To take over leading market position in segment of cosmetic product manufacturing in India.</li>
+              <li>To break into new markets, beyond our existing market.</li>
+              <li>Extend our product line to include as many products as possible in our area of manufacturing.</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p><span class="site-footer__text">Copyright &copy; 2017 Manali Beauty Care. All rights reserved.</span><a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
+    </div>
+  </footer>
+
+  <div class="modal">
+
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span>Get in<strong>Touch</strong></h2>
+
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">Connect with us on any of the following platforms below</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+      </div>
+
+    </div>
+
+    <div class="modal__close">X</div>
+
+  </div>
+
+  <script type="text/javascript" src="temp/scripts/app.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+  </script>
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+</body>
+</html>

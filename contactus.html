@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Manali Beauty Care</title>
+  <meta name="keywords" content="Cosmetics, Products, Beauty, Powder, Shampoo, Manali">
+  <meta name="description" content="Your beauty, in our hands. We create products for you to bring your inner beautiful side out.">
+
+  <link rel="stylesheet" href="temp/styles/styles.css">
+
+  <script src="temp/scripts/vendor.js"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a href="index.html">
+        <div class="site-header__logo">
+          <div class="site-header__logo__graphic icon icon--manali_logo" title="Back to Home">Manali Beauty Care</div>
+        </div>
+      </a>
+
+      <div class="site-header__menu-content-icon">
+        <div class="site-header__menu-content-icon__middle"></div>
+      </div>
+
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+          <a href="#" class="btn open-modal">Get in Touch</a>
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="index.html#about-us" id="about-us-link">About us</a></li>
+            <li><a href="index.html#why-us" id="why-us-link">Why us</a></li>
+            <li><a href="services.html" id="services-link">Services</a></li>
+            <li><a href="products.html" id="products-link">Products</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+  </header>
+
+  <div class="large-hero contactus">
+    <div class="large-hero__text-content">
+      <div class="wrapper">
+        <h1 class="large-hero__title white-color">Contact us!</h1>
+        <p class="large-hero__description">Give us a shout.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="wrapper--float-right" id="google_translate_element"></div>
+  </div>
+
+  <div id="contactus" class="page-section page-section--low-t-padding" data-matching-link="#contactus-link">
+    <div class="wrapper">
+      <div class="row row--gutters">
+          <div class="generic-content-container">
+            <h2 class="headline headline--no-t-margin headline--centered">Contact us</h2>
+            <p class="generic-content-container--para-center"><strong>Manali Beauty Care</strong> is headquartered at -  <br> I-2, Hatkesh Udyog Nagar, <br> Kashimira Bhayandar Road, P.O. Mira, <br> Mumbai - 401104, Maharashtra, India</p>
+            <p class="generic-content-container--para-center"><strong>Phone No.:</strong> +91 022 28126222</p>
+            <p class="generic-content-container--para-center"><strong>Email ID:</strong> <a class="generic-content-container--path-link" href="mailto:ajay@manalibeautycare.com">ajay@manalibeautycare.com</a></p>
+            <p class="generic-content-container--para-center">You can find us here:</p>
+            <div id="map"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p><span class="site-footer__text">Copyright &copy; 2017 Manali Beauty Care. All rights reserved.</span><a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
+    </div>
+  </footer>
+
+  <div class="modal">
+
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span>Get in<strong>Touch</strong></h2>
+
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">Connect with us on any of the following platforms below</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+      </div>
+
+    </div>
+
+    <div class="modal__close">X</div>
+
+  </div>
+
+  <script type="text/javascript" src="temp/scripts/app.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoqSX6_eZg7QzAFm-3ksNFD0HjfIhHz7Y&callback=initMap"> </script>
+  <script type="text/javascript">
+
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+
+    function initMap() {
+      var myLatLng = {lat: 19.280927, lng: 72.878875};
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: myLatLng
+      });
+
+      var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Manali Beauty Care Pvt. Ltd</h1>'+
+      '<div id="bodyContent">'+
+      '<p>Manali Beauty Care Pvt. Ltd. is one of the finest manufacturer of cosmetic, baby care and toiletry items in India</p>'+
+      '<p>To view the location on another tab <a href="https://www.google.co.in/maps/place/Manali+Beauty+Care+Pvt.+Ltd./@19.2806719,72.8784624,19z/data=!4m5!3m4!1s0x0:0x3acb51e98b2f4213!8m2!3d19.2809251!4d72.8788765" target="_blank">Click here</a></p>'+
+      '</div>'+
+      '</div>';
+
+      var infowindow = new google.maps.InfoWindow({
+        content: contentString
+      });
+
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        animation: google.maps.Animation.DROP,
+        map: map
+      });
+      marker.addListener('click', function(){
+        infowindow.open(map, marker);
+      });
+
+    }
+
+  </script>
+
+</body>
+</html>
