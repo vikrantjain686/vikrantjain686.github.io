@@ -1,0 +1,10 @@
+.list{
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.8;
+
+  &--type-circle{
+    list-style-type: circle;
+  }
+
+}

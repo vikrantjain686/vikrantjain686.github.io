@@ -1,0 +1,53 @@
+.generic-content-container{
+
+  p {
+    line-height: 1.5;
+    margin: 0 0 1.8rem 0;
+    font-weight: 300;
+    font-size: 1.1rem;
+
+    @mixin atSmall{
+      font-size: 1.5rem;
+    }
+
+  }
+
+  li {
+    font-size: 1.1rem;
+
+    @mixin atSmall{
+      font-size: 1.5rem;
+    }
+  }
+
+  p a{
+    font-weight: 700;
+    color: $mainOrange;
+    text-decoration: none;
+  }
+
+  &--para-center{
+    text-align: center;
+  }
+
+  &--path-para{
+    font-size: 1.5rem;
+  }
+
+  &--path-link{
+    font-weight: 300 !important;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  &--path-link-about-us{
+    font-size: 1rem;
+  }
+
+  &--low-line-height{
+    p{
+      line-height: 0.7;
+    }
+  }
+
+}

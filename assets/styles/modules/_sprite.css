@@ -1,0 +1,146 @@
+/*Do not edit modules/_sprite directly as it is generated automatically by gulp
+Instead edit gulp/templates/sprites*/
+
+
+    .icon{
+      background-image: url('/assets/images/sprites/sprite-060b82b5.svg');
+    }
+
+  .icon--arrowUP {
+    width: 60.13px;
+    height: 60.13px;
+    background-position: 25.20975302320085% 98.17494739554257%;
+  }
+
+
+  .icon--clear-view-escapes {
+    width: 142.4px;
+    height: 59.5px;
+    background-position: 0 0;
+  }
+
+
+  .icon--comment {
+    width: 64px;
+    height: 64px;
+    background-position: 49.6% 71.88646288209607%;
+  }
+
+
+  .icon--cust {
+    width: 64.44px;
+    height: 45.62px;
+    background-position: 0 48.104131295981894%;
+  }
+
+
+  .icon--dollar {
+    width: 56.79px;
+    height: 64px;
+    background-position: 97.03744022394153% 20.96069868995633%;
+  }
+
+
+  .icon--facebook {
+    width: 21.23px;
+    height: 42.01px;
+    background-position: 48.63886327151006% 26.50304793019642%;
+  }
+
+
+  .icon--fire {
+    width: 56px;
+    height: 64px;
+    background-position: 75.03488372093024% 0;
+  }
+
+
+  .icon--globe {
+    width: 64px;
+    height: 64px;
+    background-position: 0 71.88646288209607%;
+  }
+
+
+  .icon--home {
+    width: 35.8px;
+    height: 28.03px;
+    background-position: 35.654205607476634% 44.91074461259765%;
+  }
+
+
+  .icon--hq {
+    width: 51.19px;
+    height: 66.52px;
+    background-position: 54.18363075986454% 0;
+  }
+
+
+  .icon--instagram {
+    width: 42.01px;
+    height: 42.01px;
+    background-position: 71.1754108606934% 42.2566636120961%;
+  }
+
+
+  .icon--mail {
+    width: 64px;
+    height: 48px;
+    background-position: 99.836% 0;
+  }
+
+
+  .icon--manali_logo {
+    width: 142.4px;
+    height: 59.5px;
+    background-position: 0 25.481798715203425%;
+  }
+
+
+  .icon--rain {
+    width: 64px;
+    height: 64px;
+    background-position: 99.836% 48.90829694323144%;
+  }
+
+
+  .icon--star {
+    width: 64px;
+    height: 64px;
+    background-position: 0 99.83406113537117%;
+  }
+
+
+  .icon--suitcase {
+    width: 59.88px;
+    height: 45.42px;
+    background-position: 98.21737761687392% 71.08813312868568%;
+  }
+
+
+  .icon--time {
+    width: 59.72px;
+    height: 60.8px;
+    background-position: 73.93424571338682% 70.89577950043066%;
+  }
+
+
+  .icon--twitter {
+    width: 51.78px;
+    height: 42.06px;
+    background-position: 73.82732057051331% 25.504104566828723%;
+  }
+
+
+  .icon--wifi {
+    width: 60px;
+    height: 64px;
+    background-position: 25.19685039370079% 71.88646288209607%;
+  }
+
+
+  .icon--youtube {
+    width: 34.75px;
+    height: 42px;
+    background-position: 23.076096687555953% 47.41035856573705%;
+  }

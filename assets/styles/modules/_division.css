@@ -1,0 +1,14 @@
+.division{
+  border: 1px solid #ccc;
+  width: 30%;
+  margin: 25px auto;
+
+  &--low-t-margin{
+    margin-top: -30px;
+  }
+
+  &--high-b-margin{
+    margin-bottom: 50px;
+  }
+
+}
